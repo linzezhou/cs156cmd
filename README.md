@@ -1,7 +1,7 @@
 # cs156cmd
 Commands that are frequently used in CS156 labs
 
-1.log into csil:
+1.log into csil '\n'
 ssh username@csil.cs.ucsb.edu
 
 2.log into dokku
