@@ -11,14 +11,13 @@ ssh dokku-xx.cs.ucsb.edu
 
 3.clone a repo
 
-git clone url
-(作用： 从远程仓库 克隆整个项目（包括代码、提交历史等） 到本地。
-适用场景： 第一次从远程仓库获取项目代码时。)
+git clone url  作用： 从远程仓库 克隆整个项目（包括代码、提交历史等） 到本地。
+适用场景： 第一次从远程仓库获取项目代码时。
 
 4.pull from a remote repo to local branch
-git pull origin main
-(作用： 从远程仓库的 main 分支拉取最新代码，并合并到当前本地分支中。
-适用场景： 你已经在本地有这个仓库了，想获取远程仓库中的最新代码更新)
+
+git pull origin main  作用： 从远程仓库的 main 分支拉取最新代码，并合并到当前本地分支中。
+适用场景： 你已经在本地有这个仓库了，想获取远程仓库中的最新代码更新
 
 5.remote lookup
 git remote -v
