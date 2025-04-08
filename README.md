@@ -30,4 +30,8 @@ git checkout -b main   (创建一个名为 main 的新分支，并立即切换�
 git pull starter main
 git push origin main
 
-8.
+8.start webapp on localhost(http://localhost:8080)
+mvn compile
+mvn test
+mvn spring-boot:run
+9.
