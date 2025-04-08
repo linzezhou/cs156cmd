@@ -2,12 +2,15 @@
 Commands that are frequently used in CS156 labs
 
 1.log into csil	
+
 ssh username@csil.cs.ucsb.edu
 
 2.log into dokku
+
 ssh dokku-xx.cs.ucsb.edu
 
 3.clone a repo
+
 git clone url
 (作用： 从远程仓库 克隆整个项目（包括代码、提交历史等） 到本地。
 适用场景： 第一次从远程仓库获取项目代码时。)
