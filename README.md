@@ -132,3 +132,7 @@ dokku config:set appname --no-restart VARIABLE_NAME=value
 // to list the environmental variables
 
 dokku config:show my-app
+
+# 16.create .env by copying .env.SAMPLE
+
+cp .env.SAMPLE .env
