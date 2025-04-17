@@ -39,9 +39,11 @@ git remote add starter paste-url-here
 
 git checkout -b main   (创建一个名为 main 的新分支，并立即切换到这个分支上。)
 
-git pull starter main
+git pull starter main  (pull codes from starter's main branch into local branch)
 
-git push origin main
+git push origin main   (push updates made on local main branch to origin's main branch)
+
+git push origin dev:main (push updates made on local dev branch to origin's main branch)
 
 # 8.start webapp on localhost(http://localhost:8080)
 
@@ -121,3 +123,12 @@ git commit -m "comments"
 
 git push origin main
 
+# 15.define environmental variables on dokku
+
+dokku config:set --no-restart my-app PRODUCTION=true
+
+dokku config:set appname --no-restart VARIABLE_NAME=value
+
+// to list the environmental variables
+
+dokku config:show my-app
